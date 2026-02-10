@@ -1,1 +1,22 @@
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centers content vertically */
+    margin: 0;
+    background-color: #262626; /* Dark background for contrast */
+}
+
+p {
+    line-height: 14px; /* Adjust line height to control how the image appears */
+    background: url("https://media.geeksforgeeks.org/wp-content/uploads/20210628182253/gfglogo.png"); /* Replace with your image URL or file path */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-attachment: fixed; /* Optional: fixes the background relative to the viewport */
+    -webkit-background-clip: text; /* Clip the background to the shape of the text */
+    background-clip: text; /* Standard property (for future compatibility) */
+    -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Make the text transparent */
+    font-size: 8px; /* Small font size to create detail in the "portrait" */
+    /* Add desired font properties like font-family and font-weight */
+}
